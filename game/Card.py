@@ -35,4 +35,10 @@ class Card:
         """       
         self.value = value 
 
+    def change_suit(self, suit: str) -> None:
+        """Changes the suit of the card
+
+        Args:
+            suit (str): H, D, S, C
+        """        
     
